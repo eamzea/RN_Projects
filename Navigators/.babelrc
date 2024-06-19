@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "navigators": "./src/navigators",
+          "components": "./src/components",
+          "context": "./src/context",
+          "reducer": "./src/reducer",
+          "theme": "./src/theme",
+          "screens": "./src/screens"
+        }
+      }
+    ]
+  ]
+}

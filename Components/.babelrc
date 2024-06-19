@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "actions": "./src/actions",
+          "components": "./src/components",
+          "context": "./src/context",
+          "hooks": "./src/hooks",
+          "interfaces": "./src/interfaces",
+          "navigator": "./src/navigator",
+          "reducer": "./src/reducer",
+          "screens": "./src/screens",
+          "styles": "./src/styles"
+        }
+      }
+    ]
+  ]
+}
